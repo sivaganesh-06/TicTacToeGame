@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #63A46C;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin: 1.5rem 0;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 450px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.box{
+    height: 120px;
+    width: 120px;
+    background-color: #6A7152;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+}
+
+@media(min-width:320px) and (max-width:480px){
+    .html{
+        font-size: 12px;
+    }
+    .game{
+        height: 350px;
+        width: 300px;
+    }
+    .box{
+        height: 80px;
+        width: 80px;
+    }
+}
